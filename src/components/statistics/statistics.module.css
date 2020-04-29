@@ -1,0 +1,45 @@
+.statistics {
+    border-radius: 4px;
+    border: 1px solid rgba(191, 205, 222, 0.75);
+    width: 281px;
+    height: 171px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.title {
+    font-size: 19px;
+    font-family: "ProximaNova";
+    color: rgb(71, 89, 101);
+    line-height: 1.2;
+    padding-top: 29px;
+    text-align: center;
+}
+
+.stat_list {
+    display: flex;
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 42px;
+}
+
+.item {
+    padding: 6px 11px 10px 12px;
+    border: 1px solid rgba(191, 205, 222, 0.75);
+}
+
+.label {
+    font-size: 15px;
+    font-family: "ProximaNova";
+    /* color: rgb(255, 255, 255); */
+    line-height: 1.667;
+}
+
+.percentage {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    /* color: rgb(255, 255, 255); */
+    line-height: 1.111;
+    display: flex;
+    font-weight: 500;
+}
